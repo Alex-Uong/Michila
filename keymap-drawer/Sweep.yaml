@@ -31,9 +31,9 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-control$$
-  - LGUI
   - $$mdi:keyboard-space$$
+  - LGUI
+  - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
   Lower Layer:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -248,3 +248,5 @@ layers:
 combos:
 - p: [18, 19]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
+- p: [10, 11]
+  k: $$mdi:keyboard-tab$$
