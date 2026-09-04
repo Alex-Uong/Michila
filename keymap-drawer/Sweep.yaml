@@ -245,3 +245,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [18, 19]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
