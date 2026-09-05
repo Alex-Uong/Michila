@@ -32,7 +32,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:apple-keyboard-command$$'}
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
   Lower Layer:
@@ -142,6 +142,9 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   '4':
   - {t: '$$mdi:transfer$$', type: trans}
+  - '7'
+  - '8'
+  - '9'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -149,30 +152,27 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - '4'
+  - '5'
+  - '6'
+  - .
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - '1'
+  - '2'
+  - '3'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '0'
+  - {t: Default Layer, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '5':
@@ -264,3 +264,7 @@ combos:
   k: $$mdi:arrow-up-bold$$
 - p: [2, 3]
   k: $$mdi:arrow-down-bold$$
+- p: [17, 18]
+  k: $$mdi:arrow-right-bold$$
+- p: [11, 12, 13]
+  k: {t: '4', h: toggle}
