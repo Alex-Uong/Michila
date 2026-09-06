@@ -36,13 +36,15 @@
 };
 
 &mt {
-    tapping-term-ms = <300>;
-    flavor = "tap-preferred";
 };
 
-&lt { tapping-term-ms = <300>; };
+flavor = "
 
-/ {
+hold-preferred {
+    ";};
+
+/
+
     behaviors {
         Scroll_D_U: Scroll_D_U {
             compatible = "zmk,behavior-sensor-rotate";
