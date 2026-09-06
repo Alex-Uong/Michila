@@ -120,16 +120,6 @@
             key-positions = <5 6>;
         };
 
-        up {
-            bindings = <&kp UP_ARROW>;
-            key-positions = <26 27>;
-        };
-
-        down {
-            bindings = <&kp DOWN>;
-            key-positions = <28 27>;
-        };
-
         esc {
             bindings = <&kp ESC>;
             key-positions = <0 1>;
@@ -158,6 +148,16 @@
         to4 {
             bindings = <&tog 4>;
             key-positions = <11 12 13>;
+        };
+
+        up {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <6 7>;
+        };
+
+        down {
+            bindings = <&kp DOWN>;
+            key-positions = <16 17>;
         };
     };
 
