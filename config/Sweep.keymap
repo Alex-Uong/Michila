@@ -36,11 +36,13 @@
 };
 
 &mt {
-    tapping-term-ms = <200>;
-    flavor = "tap-preferred";
+    tapping-term-ms = <180>;
+    flavor = "balanced";
 };
 
-&lt { tapping-term-ms = <200>; };
+&lt { tapping-term-ms = <180>;
+      flavor = "balanced";
+};
 
 / {
     behaviors {
