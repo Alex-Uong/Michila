@@ -129,18 +129,13 @@
         };
 
         switch_win {
-            bindings = <&kp LG(GRAVE)>;
+            bindings = <&kp LG(TAB)>;
             key-positions = <22 23>;
         };
 
         L_up {
             bindings = <&kp UP_ARROW>;
             key-positions = <1 2>;
-        };
-
-        L_down {
-            bindings = <&kp LG(TAB)>;
-            key-positions = <2 3>;
         };
 
         right_arrow {
@@ -161,6 +156,11 @@
         down {
             bindings = <&kp DOWN>;
             key-positions = <16 17>;
+        };
+
+        switchnew {
+            bindings = <&kp LG(GRAVE)>;
+            key-positions = <23 24>;
         };
     };
 
