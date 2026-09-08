@@ -40,8 +40,9 @@
     flavor = "balanced";
 };
 
-&lt { tapping-term-ms = <180>;
-      flavor = "balanced";
+&lt {
+    tapping-term-ms = <180>;
+    flavor = "balanced";
 };
 
 / {
@@ -138,7 +139,7 @@
         };
 
         L_down {
-            bindings = <&kp DOWN>;
+            bindings = <&kp LG(TAB)>;
             key-positions = <2 3>;
         };
 
