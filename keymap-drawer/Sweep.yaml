@@ -259,7 +259,7 @@ combos:
 - p: [1, 2]
   k: $$mdi:arrow-up-bold$$
 - p: [2, 3]
-  k: $$mdi:arrow-down-bold$$
+  k: Gui+$$mdi:keyboard-tab$$
 - p: [17, 18]
   k: $$mdi:arrow-right-bold$$
 - p: [11, 12, 13]
