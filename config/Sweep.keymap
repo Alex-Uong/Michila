@@ -133,11 +133,6 @@
             key-positions = <22 23>;
         };
 
-        L_up {
-            bindings = <&kp UP_ARROW>;
-            key-positions = <1 2>;
-        };
-
         right_arrow {
             bindings = <&kp RIGHT_ARROW>;
             key-positions = <17 18>;
@@ -150,17 +145,17 @@
 
         up {
             bindings = <&kp UP_ARROW>;
-            key-positions = <6 7>;
-        };
-
-        down {
-            bindings = <&kp DOWN>;
             key-positions = <16 17>;
         };
 
         switchnew {
             bindings = <&kp LG(GRAVE)>;
             key-positions = <23 24>;
+        };
+
+        down {
+            bindings = <&kp DOWN>;
+            key-positions = <26 27>;
         };
     };
 
