@@ -248,10 +248,8 @@ layers:
 combos:
 - p: [18, 19]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-- p: [5, 6]
-  k: $$mdi:apple-keyboard-caps$$
 - p: [0, 1]
-  k: $$mdi:keyboard-esc$$
+  k: $$mdi:keyboard-tab$$
 - p: [22, 23]
   k: Gui+$$mdi:keyboard-tab$$
 - p: [17, 18]
@@ -264,5 +262,7 @@ combos:
   k: Gui+`
 - p: [26, 27]
   k: $$mdi:arrow-down-bold$$
+- p: [0, 1, 2]
+  k: $$mdi:keyboard-esc$$
 - p: [20, 21]
-  k: $$mdi:keyboard-tab$$
+  k: $$mdi:apple-keyboard-caps$$
