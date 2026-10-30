@@ -22,7 +22,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - Z
-  - {t: X, h: '$$mdi:apple-keyboard-option$$'}
+  - X
   - C
   - V
   - B
