@@ -21,7 +21,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
+  - Z
   - {t: X, h: '$$mdi:apple-keyboard-option$$'}
   - C
   - V
@@ -30,7 +30,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
+  - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:arrow-left-bold$$
@@ -264,5 +264,9 @@ combos:
   k: $$mdi:arrow-down-bold$$
 - p: [0, 1, 2]
   k: $$mdi:keyboard-esc$$
-- p: [20, 21]
+- p: [1, 2, 3]
   k: $$mdi:apple-keyboard-caps$$
+- p: [29, 28]
+  k: $$mdi:apple-keyboard-shift$$
+- p: [20, 21]
+  k: $$mdi:apple-keyboard-shift$$
